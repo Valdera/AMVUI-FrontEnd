@@ -1,0 +1,49 @@
+@import '../../sass/main.scss';
+
+.navbar {
+  position: fixed;
+  font-family: 'DM Sans';
+  display: flex;
+  height: 6.5rem;
+  background-color: $color-primary;
+  align-items: center;
+  z-index: 100;
+  width: 100%;
+  transition: all 0.3s;
+
+  & > img {
+    height: 4rem;
+    margin-right: auto;
+    margin-left: 11rem;
+  }
+
+  & > a {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: $color-black;
+    padding-right: 6rem;
+    transition: all 0.3s;
+  }
+
+  & > a:hover {
+    transform: scale(1.1);
+  }
+
+  & > a:active {
+    transform: scale(0.96);
+  }
+
+  & > button {
+    margin-right: 11rem;
+  }
+}
+
+.navbar.active {
+  background-color: $color-grey-light-1;
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.1);
+
+  & > a:hover {
+    transform: scale(1.1);
+    color: $color-primary;
+  }
+}
