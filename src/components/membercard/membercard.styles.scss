@@ -1,0 +1,29 @@
+@import '../../sass/main.scss';
+
+.container {
+    width: 200px;
+    position: relative;
+    text-align: start;
+    color: black;
+    margin-left: 5px;
+
+    & > img{
+        left: 0px;
+        top: 0px;
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+
+    &_bottom-left {
+        position: absolute;
+        bottom: 8px;
+        background-color: #240558;
+        color: $color-primary;
+        left: 0px;
+        width: 100%;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        text-align: center;
+    }
+}
