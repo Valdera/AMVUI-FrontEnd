@@ -4,6 +4,7 @@
 .membercard{
     position: relative;
     font-family: 'Raleway';
+    margin: 3rem;
 
     & > img{
         float: left;
@@ -20,7 +21,7 @@
         overflow: hidden;
         position: absolute;
         top: 10rem;
-        background-color: #240558;
+        background-color: $color-secondary;
         color: $color-primary;
         left: 0rem;
         width: 16rem;
@@ -99,7 +100,7 @@
 .name_container {
     &_name {
         font-size: 24px;
-        color: #240558;
+        color: $color-secondary;
         align-items: center;
         text-align: center;
         margin-left: 1rem;

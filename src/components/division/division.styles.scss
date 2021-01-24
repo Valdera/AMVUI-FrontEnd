@@ -1,0 +1,28 @@
+@import '../../sass/main.scss';
+
+.division {
+    margin: 2rem;
+    &_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &_name {
+        font-size: 2.4rem;
+        font-weight: bold;
+        color: $color-black;
+        margin-left: 6rem;
+        font-family: 'Raleway';
+    }
+
+    & > img {
+        width: 5rem;
+        height: 5rem;
+        float: left;
+    }
+
+    &_desc {
+        margin-top: 1rem;
+        font-family: 'Dm Sans';
+    }
+}
